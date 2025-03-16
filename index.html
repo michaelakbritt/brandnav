@@ -1,10 +1,9 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <title>Seattle Times</title>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles.css">
-
 </head>
 <body>
     <div class="outer">
@@ -12,26 +11,45 @@
             <!-- Header Image -->
             <img src="seattlelogo.png" alt="Seattle Times Logo" class="header">
 
-</head>
-<body>
-<div class="nav">
-    <a href="index.html" class="navhere">Home</a> 
-    <a href="Llocal,html">Local</a> 
-    <a href="biz.html">Biz</a> 
-    <a href="nation.html">Nation</a> 
-    <a href="sports.html">Sports</a> 
-    <a href="entertainment.html">Entertainment</a>
-    <a href="life.html">Life</a> 
-    <a href="homes.html">Homes</a> 
-    <a href="opinion.html">Opinion</a> 
-</div>
+            <!-- Navigation -->
+            <div class="nav">
+                <a href="index.html" class="navhere">Home</a> 
+                <a href="local.html">Local</a> 
+                <a href="biz.html">Biz</a> 
+                <a href="nation.html">Nation</a> 
+                <a href="sports.html">Sports</a> 
+                <a href="entertainment.html">Entertainment</a>
+                <a href="life.html">Life</a> 
+                <a href="homes.html">Homes</a> 
+                <a href="opinion.html">Opinion</a> 
+            </div>
 
-<span class= "about">
-The Seattle Times is an American daily newspaper based in Seattle, Washington.</br>
-Founded in 1891, The Seattle Times has the largest circulation of any newspaper in the state of Washington and the Pacific Northwest region.
+            <span class="about">
+                The Seattle Times is an American daily newspaper based in Seattle, Washington.</br>
+                Founded in 1891, The Seattle Times has the largest circulation of any newspaper in the state of Washington and the Pacific Northwest region.
+            </span>
+        </div>
+    </div>
 
+    <!-- Mobile Menu (Hamburger) -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="close-btn" onclick="toggleMenu()">X</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="local.html">Local</a></li>
+            <li><a href="biz.html">Biz</a></li>
+            <li><a href="nation.html">Nation</a></li>
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="entertainment.html">Entertainment</a></li>
+            <li><a href="life.html">Life</a></li>
+            <li><a href="homes.html">Homes</a></li>
+            <li><a href="opinion.html">Opinion</a></li>
+        </ul>
+    </div>
 
+    <!-- Hamburger Menu -->
+    <div class="hamburger-menu" onclick="toggleMenu()">☰</div>
+
+    <script src="script.js"></script>
 </body>
 </html>
-	
-	
